@@ -1,0 +1,12 @@
+34 error Error: Command failed with exit code 1: git add -- packages/container/package.json packages/container/package-lock.json packages/appb/package.json packages/appb/package-lock.json packages/appa/package.json packages/appa/package-lock.json
+34 error The following paths are ignored by one of your .gitignore files:
+34 error packages/appa/package-lock.json
+34 error packages/appb/package-lock.json
+34 error packages/container/package-lock.json
+34 error hint: Use -f if you really want to add them.
+34 error hint: Turn this message off by running
+34 error hint: "git config advice.addIgnoredFile false"
+34 error     at makeError (/Users/yakespertamina/Desktop/Project/Micro Frontend/micro-front-end/node_modules/execa/lib/error.js:60:11)
+34 error     at handlePromise (/Users/yakespertamina/Desktop/Project/Micro Frontend/micro-front-end/node_modules/execa/index.js:118:26)
+34 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+34 error     at async Promise.all (index 0)
