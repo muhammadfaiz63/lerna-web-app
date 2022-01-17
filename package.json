@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/root",
+  "private": true,
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @workspace/container -- yarn start",
+    "test": "lerna run test --since",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
